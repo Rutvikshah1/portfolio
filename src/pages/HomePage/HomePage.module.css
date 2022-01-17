@@ -1,0 +1,14 @@
+.google {
+  width: 38rem;
+  margin-top: -9rem;
+  margin-bottom: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
