@@ -1,4 +1,4 @@
-input[type="text"] {
+.searchbox {
   width: 90%;
   height: 100%;
   border: 1px solid #d5d4d4;
@@ -17,7 +17,7 @@ input[type="text"] {
   width: 40%;
 }
 
-span {
+.searchbar span {
   position: absolute;
   z-index: 1;
   font-size: 2rem;
@@ -41,7 +41,11 @@ span {
   color: #1906a7;
 }
 
-.suggestion_lists li:hover {
+.suggestion_lists li a {
+  color: #1906a7;
+}
+
+.suggestion_lists li a:hover {
   color: blue;
   cursor: pointer;
 }

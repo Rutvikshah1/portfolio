@@ -1,0 +1,7 @@
+@import "material-icons/iconfont/material-icons.css";
+@import url("http://fonts.cdnfonts.com/css/avenir-next-cyr");
+@import url("http://fonts.cdnfonts.com/css/tiempos-headline");
+
+.App {
+  min-height: 90px;
+}

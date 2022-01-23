@@ -1,3 +1,64 @@
 .container {
   display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d5d4d4;
+}
+
+.google {
+  height: 3.3rem;
+  width: 9.2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+
+.searcbar_wrapper {
+  width: 76%;
+  position: relative;
+}
+
+.searcbar_wrapper span {
+  position: absolute;
+  z-index: 1;
+  font-size: 2rem;
+  top: 3.4rem;
+  left: 1.8rem;
+  color: #777;
+}
+
+.searchbar {
+  height: 4.4rem;
+  width: 53.8rem;
+  margin-top: 2rem;
+  border: 1px solid #d5d4d4;
+  border-radius: 5rem;
+  padding: 0 4rem 0 4.5rem;
+  outline: none;
+  box-shadow: 0 0.2rem 1rem -0.7rem var(--black-color);
+  font-size: 1.6rem;
+  font-family: noto sans hk;
+}
+
+.suggestion_lists {
+  padding-inline-start: 0;
+  display: flex;
+}
+
+.suggestion_lists :first-child {
+  padding-left: 0;
+}
+
+.suggestion_lists li {
+  list-style: none;
+  padding: 1rem 2rem;
+  font-family: noto sans hk;
+  color: #1906a7;
+  cursor: pointer;
+}
+
+.icons_wrapper {
+  display: flex;
+  padding: 4rem;
+  justify-content: space-between;
+  width: 7%;
 }

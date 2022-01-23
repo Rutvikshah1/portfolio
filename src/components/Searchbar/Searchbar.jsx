@@ -1,7 +1,6 @@
 import React from "react";
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
-
 import classes from "./Searchbar.module.css";
 
 const Searchbar = () => {
@@ -12,24 +11,26 @@ const Searchbar = () => {
       <span class="material-icons searchicon">search</span>
       <input
         type="text"
-        name=""
         onClick={() => setSearchActive(true)}
         placeholder="Search google or type a URL"
+        className={classes.searchbox}
       />
       {searchActive && (
         <>
           <ul className={classes.suggestion_lists}>
             <li>
-              <Link to={"/experience"}>About me</Link>
+              <Link to={"/about-me"}>About Me</Link>
             </li>
-
-            <li>Experience</li>
-            <li>Projects</li>
-            <li>Education</li>
-            <li>Links</li>
             <li>
-              <div class="material-icons searchicon"></div>Download Resume
+              <Link to={"/experience"}>Experience</Link>
             </li>
+            <li>
+              <Link to={"/projects"}>Projects</Link>
+            </li>
+            <li>
+              <Link to={"/education"}>Education</Link>
+            </li>
+            <li>Download Resume</li>
           </ul>
         </>
       )}

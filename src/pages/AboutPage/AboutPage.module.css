@@ -1,0 +1,46 @@
+.heading_about {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.aboutPage img {
+  border-radius: 2rem;
+  width: 40%;
+}
+
+.aboutPage p {
+  font-family: "Avenir Next Cyr Light", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.div_block_1 {
+  padding: 0 15rem;
+}
+
+.div_block_2 {
+  background-color: #fff9dd;
+  padding: 1rem 15rem;
+}
+
+.div_block_2 h2 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+.div_block_2 h3 {
+  font-family: "Avenir Next Cyr", sans-serif;
+  font-weight: bold;
+}
+
+.div_block_2 p {
+  font-family: "Avenir Next Cyr Ultra Light", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.div_block_3 h3 {
+  font-size: 3.6rem;
+}
+
+.div_block_3 {
+  padding: 2rem 15rem;
+}

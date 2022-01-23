@@ -1,0 +1,20 @@
+.url {
+  color: #202124;
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.title {
+  color: #1a0dab;
+  font-family: Roboto, arial, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+.searchlink_wrapper {
+  width: 70rem;
+  margin-left: 15rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  text-align: justify;
+}

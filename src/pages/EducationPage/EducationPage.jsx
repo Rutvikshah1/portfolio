@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 
-const ExperiancePage = () => {
+const EducationPage = () => {
   return (
     <div>
       <Navbar />
@@ -9,4 +9,4 @@ const ExperiancePage = () => {
   );
 };
 
-export default ExperiancePage;
+export default EducationPage;
